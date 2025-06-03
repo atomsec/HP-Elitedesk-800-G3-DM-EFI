@@ -6,13 +6,11 @@ Complete the configuration according to [OpenCore-Install-Guide](https://dortani
 
 ## MacOs Version
 
----
 
 - MacOS Sonoma 14.7.6
 
 ## System Configuration
 
----
 
 - CPU: intel COre i7-6700T
 - IGPU: Intel HD Graphics 530
@@ -30,7 +28,6 @@ Complete the configuration according to [OpenCore-Install-Guide](https://dortani
 
 ## Minimum EFI
 
----
 
 - ACPI
     - [SSDT-AWAC-HPET-RTC.aml](https://github.com/corpnewt/SSDTTime)
@@ -58,7 +55,6 @@ Complete the configuration according to [OpenCore-Install-Guide](https://dortani
 
 ## Fully-Repaired EFI
 
----
 
 - Kexts
     - [NVMeFix.kext](https://github.com/acidanthera/NVMeFix)
@@ -83,7 +79,6 @@ Complete the configuration according to [OpenCore-Install-Guide](https://dortani
 
 ## Working
 
----
 
 - iGPU Acceleration
     - If the screen has no signal, please try to change the input interface (if changing the input interface does not solve the problem, please find the port patch that suits you according to [Intel iGPU Patching](https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/#terminology))
@@ -95,19 +90,16 @@ Complete the configuration according to [OpenCore-Install-Guide](https://dortani
 
 ## Not Working
 
----
 
 - Sleep/Wake
 
 ## Note
 
----
 
 Get your own [SMBIOS](https://github.com/corpnewt/GenSMBIOS) and fill in config.plist-platform.
 
 ## Credits
 
----
 
 Thanks to the authors of the linked content.
 Thanks to everyone in the Hackintosh community.
